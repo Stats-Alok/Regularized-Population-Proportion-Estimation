@@ -289,7 +289,7 @@ results <- data.frame(
   
   MSE = c(MSE_SRS, MSE_RSS, MSE_Con.RSS),
   
-  PRE = c(1, SRS_RE, RSS_RE),
+  RE = c(1, SRS_RE, RSS_RE),
   
   ARB = c(ARB_SRS, ARB_RSS, ARB_Con.RSS)
 )
