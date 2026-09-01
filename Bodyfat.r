@@ -155,7 +155,7 @@ for(iter in 1:rep){
   # Ridge Logistic Regression
   # -----------------
   cv_fit <- cv.glmnet(X_rss, y_rss,
-                      alpha = 0,
+                      alpha = 0, nfolds = 10,
                       family = "binomial",
                       standardize = TRUE)
   
